@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristóbal Escobar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <svg width="50" height="50" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="#3498db" stroke-width="8" />
+                    <text x="50" y="65" font-size="40" text-anchor="middle" fill="#3498db">C.E</text>
+                </svg>
+            </div>
+            <ul>
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Hola, soy Cristóbal">Hola, soy Cristóbal</h1>
+                <p class="subtitle">Desarrollador Web Full Stack & Creativo Digital</p>
+                <a href="#contacto" class="cta-button">Contáctame</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="img/me.JPG" alt="Tu foto o imagen representativa">
+                </div>
+            </div>
+            <div id="particles-js"></div>
+        </section>
+
+        <section id="habilidades">
+            <h2 class="section-title">Mis Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card" data-skill="HTML5">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="CSS3">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="JavaScript">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill=".NET Core 8">
+                    <img src="img/dotnet.png" alt=".NET Core 8 Logo" style="width: 110px; height: 55px;">
+                    
+                    <h3>.NET Core 8</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 50%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-skill="SQL">
+                    <i class="fas fa-database" style="font-size: 40px; color: #007bff;"></i>
+                    <h3>SQL</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 50%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card" data-skill="React">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 45%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Node.js">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 30%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2 class="section-title">Mis Creaciones</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/baktc.png" alt="Proyecto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Eccomerce</h3>
+                        <p>Una aplicación web que tiene la estructura de un eccomerce.</p>
+                        <div class="project-tech">
+                            <span>Html</span>
+                            <span>Css</span>
+                            <span>Js</span>
+                        </div>
+                        <a href="https://cescobarmorales.github.io/baktc/" class="project-link">Explorar Proyecto</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/img/scociedadAbogado.png" alt="Proyecto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Página Web</h3>
+                        <p>Una pagina web para una sociedad de abogados y sus servicios.</p>
+                        <div class="project-tech">
+                            <span>Html</span>
+                            <span>Css</span>
+                            <span>Js</span>
+                        </div>
+                        <a href="https://cescobarmorales.github.io/sociedadAbogados/" class="project-link">Explorar Proyecto</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/dulcesdetalles.png" alt="Proyecto 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Página Web</h3>
+                        <p>Página web de emprendedores para muestra de productos.</p>
+                        <div class="project-tech">
+                            <span>Html</span>
+                            <span>Css</span>
+                            <span>Js</span>
+                        </div>
+                        <a href="#" class="project-link">Explorar Proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2 class="section-title">Iniciemos una Conversación</h2>
+            <form id="formulario-contacto">
+                <div class="form-group">
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="nombre">Nombre</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <label for="mensaje">Mensaje</label>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span>Enviar</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Cristóbal Escobar. Transformando ideas en realidad digital.</p>
+            <div class="social-links">
+                <a href="https://github.com/cescobarmorales" aria-label="GitHub" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/escobarcristobal/" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Agregar el SDK de EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    
+    <script src="/js/script.js"></script>
+    <script src="js/email.js"></script>
+</body>
+</html>
