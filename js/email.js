@@ -1,3 +1,10 @@
+// Función para sanitizar las entradas y evitar posibles inyecciones de código
+function sanitizeInput(input) {
+    const div = document.createElement('div');
+    div.innerText = input;
+    return div.innerHTML;
+}
+
 (function() {
     // Inicializar EmailJS con tu clave pública
     emailjs.init("HnANh1dgCeeuthEpt"); // ← Reemplaza esto con tu clave pública de EmailJS
