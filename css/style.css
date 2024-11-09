@@ -46,6 +46,13 @@ body {
     overflow-x: hidden;
 }
 
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none; /* Ocultos por defecto */
+    margin-top: 5px;
+}
+
 /* Custom Cursor */
 #cursor {
     position: fixed;
